@@ -1,0 +1,135 @@
+DOC<!TYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smart e Game - Celulares & Assistência Técnica</title>
+  <style>
+    :root {
+      --amarelo: #FFD600;
+      --preto: #000000;
+      --cinza-escuro: #222;
+      --branco: #ffffff;
+    }
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: #f9f9f9;
+      color: var(--cinza-escuro);
+    }
+    header {
+      background: var(--preto);
+      color: var(--amarelo);
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    .hero {
+      background: url('https://vempraumclick.com.br/umclick-itajai/assets/images/bg/bg-hero.jpg') no-repeat center center/cover;
+      color: var(--branco);
+      padding: 100px 20px;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    }
+    .hero p {
+      font-size: 1.2em;
+      max-width: 600px;
+      margin: 0 auto;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 15px 30px;
+      background: var(--amarelo);
+      color: var(--preto);
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #e6c200;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: var(--branco);
+      padding: 20px;
+      border-left: 6px solid var(--amarelo);
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: var(--cinza-escuro);
+      color: var(--amarelo);
+      padding: 20px;
+      text-align: center;
+    }
+    a {
+      color: var(--amarelo);
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Smart e Game</h1>
+    <p>Celulares | Acessórios | Assistência Técnica</p>
+  </header>
+
+  <div class="hero">
+    <h2>Seu celular novo ou consertado, com preço justo e confiança!</h2>
+    <p>Temos tudo o que você precisa: celulares, acessórios, consertos rápidos, garantia e atendimento de primeira.</p>
+    <a href="https://wa.me/5547997180525" class="btn" target="_blank">Fale com a gente no WhatsApp</a>
+  </div>
+
+  <section>
+    <h2 style="text-align:center; color: var(--preto);">Nossos serviços</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Venda de Celulares</h3>
+        <p>Modelos novos e seminovos com garantia e ótimo custo-benefício.</p>
+      </div>
+      <div class="card">
+        <h3>Assistência Técnica</h3>
+        <p>Troca de tela, consertos, atualização de software e muito mais.</p>
+      </div>
+      <div class="card">
+        <h3>Acessórios</h3>
+        <p>Capinhas, carregadores, fones de ouvido e tudo para seu aparelho.</p>
+      </div>
+      <div class="card">
+        <h3>Atendimento Rápido</h3>
+        <p>Serviço ágil e profissionais qualificados para resolver seu problema sem enrolação.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 style="text-align:center; color: var(--preto);">Onde estamos</h2>
+    <p style="text-align:center;">Estefano José Vanolli, 1330 - Sala 5 - Itajaí/SC</p>
+    <p style="text-align:center;"><a href="https://www.instagram.com/smartgames_itajai" target="_blank">Siga no Instagram: @smartgames_itajai</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Smart e Game. Todos os direitos reservados.</p>
+    <p>Contato: <a href="tel:+5547997180525">(47) 99718-0525</a></p>
+  </footer>
+</body>
+</html>
